@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="description" value="test extension" />
+        <option name="jaloLogicFree" value="true" />
+        <option name="name" value="test" />
+        <option name="packageRoot" value="com.occ" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/custom/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../bin/custom/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../bin/custom/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/test/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/test/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="test - lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/custom/test/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/custom/test/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.commerce-services.commercewebservices" exported="" />
+  </component>
+</module>

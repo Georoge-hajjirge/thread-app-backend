@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="description" value="testocc extension" />
+        <option name="jaloLogicFree" value="true" />
+        <option name="name" value="testocc" />
+        <option name="packageRoot" value="com.occ" />
+        <option name="type" value="CUSTOM" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/custom/testocc/classes" />
+    <output-test url="file://$MODULE_DIR$/../../bin/custom/testocc/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../bin/custom/testocc">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/testocc/testclasses" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="testocc - lib">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/custom/testocc/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/custom/testocc/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Hybris.commerce-services.commercewebservices" exported="" />
+  </component>
+</module>

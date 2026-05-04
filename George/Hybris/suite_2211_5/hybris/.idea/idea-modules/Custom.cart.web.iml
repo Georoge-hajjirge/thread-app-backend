@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="SAP_COMMERCE_Y_FACET_ID" name="SAP Commerce">
+      <configuration>
+        <option name="coreModule" value="true" />
+        <option name="jaloLogicFree" value="true" />
+        <option name="name" value="cart.web" />
+        <option name="packageRoot" value="org.cart" />
+        <option name="subModuleType" value="WEB" />
+        <option name="type" value="CUSTOM" />
+        <option name="webModule" value="true" />
+        <option name="webRoot" value="/cart" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../bin/custom/cart/web/classes" />
+    <output-test url="file://$MODULE_DIR$/../../bin/custom/cart/web/classes" />
+    <exclude-output />
+    <javadoc-paths>
+      <root url="https://help.sap.com/doc/9fef7037b3304324b8891e84f19f2bf3/2211/en-US" />
+    </javadoc-paths>
+    <content url="file://$MODULE_DIR$/../../bin/custom/cart/web">
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/gensrc" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/groovysrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/groovytestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/kotlinsrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/kotlintestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/scalasrc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/scalatestsrc" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/testsrc" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/.externalToolBuilders" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/bower_components" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/eclipsebin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/jsTarget" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/testclasses" />
+      <excludeFolder url="file://$MODULE_DIR$/../../bin/custom/cart/web/webroot/WEB-INF/classes" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="cart.web - Web Library">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../bin/custom/cart/web/webroot/WEB-INF/lib" />
+          <root url="jar://$MODULE_DIR$/../../bin/custom/cart/web/webroot/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../bin/custom/cart/web/webroot/WEB-INF/lib" recursive="true" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="Custom.cart" exported="" />
+  </component>
+</module>
